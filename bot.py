@@ -6,13 +6,13 @@ class TelMan:
     """Python-Telegram-Bot function manager."""
 
     def __init__(self):
-        self.telegram_token = "6091818598:AAFlzIBzoTFpnPXcmI_yQhHRV8eqwNBsrL4"
+        self.telegram_token = "6231502284:AAEgIa3GEXYUyg6UZ_YRAMFx4jgX2pX6bFk"
 
 
         import openai
 
         self.openai = openai
-        self.openai.api_key = "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"
+        self.openai.api_key = "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"
 
 
         from telegram.ext import Updater
